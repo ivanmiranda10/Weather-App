@@ -19,7 +19,7 @@
 .card:hover {
   transition: 0.2s;
   content: attr(title);
-  background-color: rgb(186, 204, 236);
+  background-color: rgb(35, 35, 35);
 }
 
 .name {
