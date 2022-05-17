@@ -2,6 +2,7 @@ import axios from "axios";
 
 // const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
 // const apiKey = "5c07afc1cb3a92c24ce521bc75a5744f";
+
 const apiKey = "80f99181ef7f8cac15c5fc6178fef1f6";
 
 const GET_CITY = "GET_CITY";
