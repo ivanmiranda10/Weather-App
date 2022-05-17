@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+.brandName {
+  font-family: "Oxygen", cursive;
+  font-size: 20px;
+  margin: 4px;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.searchBarDiv {
+  align-self: center;
+  margin-top: 10px;
+}

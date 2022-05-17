@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-color: #131212c2;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 5px;
+  width: 9em;
+  height: 4em;
+}
+
+.card:hover {
+  transition: 0.2s;
+  content: attr(title);
+  background-color: rgb(186, 204, 236);
+}
+
+.name {
+  margin: auto;
+  justify-self: center;
+  margin-bottom: 0px;
+  margin-top: 6px;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.close {
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 0px;
+  margin-top: 1px;
+  color: red;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  margin-bottom: -22px;
+}
+
+.temps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.minMax {
+  margin: 1px;
+}
+
+.values {
+  margin: 1px;
+}

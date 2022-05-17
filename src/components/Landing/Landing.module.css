@@ -1,0 +1,87 @@
+.container {
+  background-image: url("../../extra/assets/pexels-johannes-plenio-1118861.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.brandName {
+  font-family: "Oxygen", cursive;
+  color: #fff;
+  font-size: 8em;
+  margin-bottom: -20px;
+  margin-top: -100px;
+}
+
+@media screen and (max-width: 768px) {
+  .brandName {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .brandName {
+    font-size: 32px;
+  }
+}
+
+.productDescContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 768px) {
+  .productDescContainer {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .productDescContainer {
+    font-size: 22px;
+  }
+}
+
+.productDescription {
+  font-family: "Futura";
+}
+
+.weather {
+  font-family: "Futura Bold";
+  color: #282726;
+  filter: grayscale(20%);
+}
+
+.button {
+  cursor: pointer;
+  border-style: none;
+  background-color: #0decec;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  height: 2em;
+  width: 6em;
+  font-size: 1rem;
+  text-shadow: #000 0.0625rem 0 0.625rem;
+  transition: 0.2s ease-out;
+  font-stretch: expanded;
+  filter: grayscale(20%);
+}
+
+.button:hover {
+  transform: translate3d(0, 3.2px, 0);
+}
