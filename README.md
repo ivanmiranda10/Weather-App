@@ -1,3 +1,13 @@
+# Weather App
+
+A simple and responsive weather app that consumes the Open Weather API. <br><br>
+The purpose of this app was to fully understand the fundamental concepts of React and Redux, as well as to practice how to consume data from an API. <br><br>
+It was one of the first projects that I had the opportunity to develop.
+
+# Link 
+
+https://localhost:3000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
